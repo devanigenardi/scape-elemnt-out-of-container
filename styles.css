@@ -82,6 +82,11 @@
   }
   
   @media (min-width: 600px) {
+    img {
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
     .full-width-split-screen {
         display: grid;
         grid-template-columns: 
